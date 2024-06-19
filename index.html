@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Stock Market Analysis</h1>
+    </header>
+    <main>
+        <div id="stock-info">
+            <div id="chartsec">
+                <canvas id="myChart" style="width:800px; padding: 1rem;">
+                </canvas>
+                <div id="period-list">
+
+                </div>
+            </div>
+            <div id="summary">
+                <p id="summary-header">
+                    <span id="stock-symbol"></span>
+                    <span id="book-val"></span>
+                    <span id="per-change"></span>
+                </p>
+                <p id="company-summary"></p>
+            </div>
+        </div>
+
+        <div id="stock-list">
+
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
